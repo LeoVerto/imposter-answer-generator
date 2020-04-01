@@ -33,7 +33,7 @@ function getAnswer() {
     answer += randomElt(a.split(" ")) + " ";
     answer += randomElt(n.split(" ")) + ".";
     answer += " read first letters"
-    return answer;
+    return answer.toLowerCase();
 }
 
 function generateAnswer() {
