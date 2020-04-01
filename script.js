@@ -32,7 +32,7 @@ function getAnswer() {
     answer += randomElt(m.split(" ")) + " ";
     answer += randomElt(a.split(" ")) + " ";
     answer += randomElt(n.split(" ")) + ".";
-    answer += " read first letters"
+    answer += " check if the first letters spell human"
     return answer.toLowerCase();
 }
 
