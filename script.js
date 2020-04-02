@@ -39,7 +39,7 @@ function getAnswer() {
 function generateAnswer() {
     answer = getAnswer();
 
-    while (answer.length > 200) {
+    while (answer.length > 100) {
         answer = getAnswer();
     }
 
